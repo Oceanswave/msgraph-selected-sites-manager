@@ -127,7 +127,7 @@ export async function createAppSitePermissions(siteId: string) {
         'Content-Type': 'application/json',
       },
       body : JSON.stringify({
-        "roles": ["read","write"],
+        "roles": ["read","write", "readwrite"],
         "grantedToIdentities": [{
           "application": {
             "id": process.env.SELECTED_SITES_MANAGER_APP_CLIENT_ID,
