@@ -1,4 +1,4 @@
-Demonstrates how to use the Permissions API to add/remove permissions.
+Demonstrates how to use the MS Graph Permissions API to add/remove permissions to allow an app access to sites using the Sites.Selected permission.
 
 ## How to use the sample
 1. Clone the repo
